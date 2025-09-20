@@ -42,12 +42,11 @@ No, these two files are not the same. This is because the history.txt file inclu
 
 *6. Complete the introduction to GitHub tutorial. Screenshot the message you receive when you complete the tutorial, and insert the image into your markdown file.* 
 
-![Completed the GitHub tutorial!](./github_intro.png)
+![Completed the GitHub tutorial!](/images/github_intro.png)
 
 *7. Take a screenshot of your terminal window listing the files of your local repo. Add the screenshot to the markdown file.
 
 ![Forked the Respository](successful_part_2.png)
-
 
 
 
