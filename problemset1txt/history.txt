@@ -1,0 +1,460 @@
+    1  wsl
+    2  sl
+    3  ls
+    4  wsl
+    5  wslfetch
+    6  ls
+    7  pwd
+    8  cd /
+    9  cd ../
+   10  pwd
+   11  ls
+   12  man ls
+   13  cd ../
+   14  ls
+   15  cd ../
+   16  ls
+   17  ls -a
+   18  ls -G
+   19  ls -t
+   20  ls -lrt
+   21  cd ~/
+   22  pwd
+   23  cd /
+   24  ls
+   25  cd home
+   26  cd ~/
+   27  pwd
+   28  cd  /Users/joe2mer/
+   29  clear
+   30  cd  d
+   31  pwd
+   32  cd  /home/
+   33  pwd
+   34  cd ~/
+   35  pwd
+   36  mkdir ClassFiles
+   37  ls
+   38  pwd
+   39  ls -lrt
+   40  touch tmp.txt
+   41  ls -lrt
+   42  vi tmp.txt
+   43  cp tmp.txt tmp2.txt
+   44  ls -lrt
+   45  cp tmp.txt tmp3.txt
+   46  cp tmp.txt tmpNew.txt
+   47  ls -lrt
+   48  mkdir replicas
+   49  man mv
+   50  mv tmp2.txt replicas 
+   51  ls -lrt
+   52  pwd
+   53  ls
+   54  ls *.txt
+   55  mv *.txt replicas 
+   56  ls -lrt
+   57  cd replicas
+   58  ls -lrt
+   59  cd ~/
+   60  pwd
+   61  cd downloads
+   62  cd PSYC5P02
+   63  cd /
+   64  cd downloads
+   65  cd PSYC5P02
+   66  cd ~/
+   67  pwd
+   68  /mnt/c/Users/PSYC5P02
+   69  cd /
+   70  pwd
+   71  cd ../
+   72  pwd
+   73  CD /Downloads
+   74  cd /Downloads
+   75  cd 
+   76  cd /mnt/c/Users/joe2mer/PSYC5P02
+   77  cd /mnt/c/Users/joe2mer/Downloads/
+   78  ls
+   79  cd replicas
+   80  cd ~/
+   81  cd /
+   82  pwd
+   83  cd mnt/c/Users/joe2m/Desktop/PSYC5P02/
+   84  pwd
+   85  ls -lrt
+   86  mv ~/ClassFiles/
+   87  mv *.pdb ~/ClassFiles/
+   88  pwd
+   89  ls -lrt
+   90  mv *.txt ~/ClassFiles/
+   91  ls -lrt
+   92  cd ~/
+   93  ls_lrt
+   94  ls -lrt
+   95  n
+   96  cd ClassFiles
+   97  ls -lrt
+   98  man ls
+   99  man ls -lrt
+  100  ls -lrt
+  101  pwd
+  102  cd /
+  103  pwd
+  104  ls
+  105  cd ~/
+  106  pwd
+  107  ls -lrt
+  108  cd /ClassFiles
+  109  cd ClassFiles
+  110  cd ./
+  111  cd ~/
+  112  ls -lrt
+  113  cd replicas
+  114  ls -lrt
+  115  cd ~/
+  116  pwd
+  117  sudo apt update
+  118  sudo apt install git build-essential autotools python3 r-base
+  119  sudo apt-get install git -y
+  120  git --version
+  121  this is a new screen 
+  122  exit
+  123  cd ~/
+  124  pwd
+  125  ls -lrt
+  126  cd ClassFiles
+  127  mv replicas ClassFiles
+  128  mv /replicas ClassFiles
+  129  ls -lrt
+  130  cd replicas
+  131  cd ~/
+  132  cd replicas
+  133  mv replicas ClassFiles
+  134  cd ~/
+  135  mv replicas ClassFiles
+  136  cd ~/
+  137  ls -lrt
+  138  cd ClassFiles
+  139  ls -lrt
+  140  cd replicas
+  141  rm tmp?.txt 
+  142  ls -lrt
+  143  cd ClassFiles
+  144  cd ~/
+  145  cd ClassFiles
+  146  ls *.pdb
+  147  wc cubane.pdb
+  148  man wc
+  149  wc *.pdb
+  150  wc *.pdb > lengths.txt
+  151  ls -lrt
+  152  cat lengths.txt
+  153  sort -n lengths.txt
+  154  cat lengths.txt
+  155  sort -n lengths.txt
+  156  sort -n lengths.txt > sorted-lengths.txt
+  157  ls -lrt
+  158  cat sorted-lengths.txt
+  159  touch sorted-lengths2.txt 
+  160  ls -lrt
+  161  sorted-lengths.txt >> sortedlengths2.txt
+  162  ls -lrt
+  163  sort -n lengths.txt | head n-1
+  164  sort -n lengths.txt  | head -n 1
+  165  ls _lrt
+  166  ls -lrt
+  167  cat haiku.txt
+  168  grep the haiku.txt
+  169  grep not the haiku.txt
+  170  egrep 'the|is' haiku.txt
+  171  find lengths.txt
+  172  find *.pdb
+  173  screen
+  174  sudo apt install screen
+  175  screen
+  176  screen -r
+  177  screen
+  178  screen ls -ls
+  179  screen -ls
+  180  screen -r 874
+  181  screen -r
+  182  screen -r 874
+  183  git config --global user.name "joe2mer"
+  184  git config --global user.email joe2mer@gmail.com
+  185  git config --global --edit
+  186  cd ~/
+  187  ls -lrt
+  188  ls
+  189  ls-a
+  190  ls -a
+  191  notepad .gitconfig
+  192  vi .gitconfig
+  193  git config --global init.defaultBranch main 
+  194  vi .gitconfig 
+  195  git config --global init.defaultBranch main 
+  196  vi .gitconfig
+  197  cd ClassFiles
+  198  mkdir recipes 
+  199  cd recipes
+  200  git init
+  201  ls -a
+  202  ls -all
+  203  cd .git
+  204  ls
+  205  cd recipes
+  206  cd ../
+  207  git status
+  208  touch guacamole.md
+  209  vi guacamole.md
+  210  git status
+  211  git add guacamole.md
+  212  git status
+  213  git commit -m "Create initial structure for a Gucamole recipe"
+  214  git status
+  215  vi guacamole.md
+  216  git status
+  217  git diff
+  218  git add guacamole.md
+  219  git status
+  220  git diff --staged
+  221  git commit -m "added some ingredients"
+  222  vi guacamole.md
+  223  git diff
+  224  git add guacamole.md
+  225  git commit -m "more avocados"
+  226  git log
+  227  mkdir Healthy_Recipes 
+  228  ls -lrt
+  229  get diff
+  230  git diff
+  231  get status
+  232  git status
+  233  git diff
+  234  cd Healthy_Recipes
+  235  touch Horse.txt
+  236  cd ../
+  237  git diff
+  238  git add HealthyStuff/Horse.txt
+  239  git add Healthy_Recipes/Horse.txt
+  240  git status
+  241  vi guacamole.md
+  242  git diff
+  243  git diff HEAD guacamole.md
+  244  git LOG
+  245  git log
+  246  git log --1
+  247  git log --oneline
+  248  git diff 6ba7e21
+  249  git status
+  250  git add
+  251  git commit -m "added junk"
+  252  git status
+  253  git add
+  254  vi guacamole.md
+  255  git add guacamole.md
+  256  git status
+  257  git commit -m "added junk"
+  258  git log --oneline
+  259  git log
+  260  touch tmp.txt
+  261  git status
+  262  ls -lrt
+  263  touch .gitignore
+  264  vi .gitignore
+  265  git status
+  266  vi .gitignore
+  267  git status
+  268  cd ~/
+  269  ls -a
+  270  ssh-keygen -t ed25519 -C "joe2mer@gmail.com"
+  271  ls -all
+  272  ls -a
+  273  vi githubkey.pub
+  274  git remote add origin git@github.com: joe2mer/recipes.igt
+  275  cd classfiles
+  276  cd ClassFiles
+  277  cd recipes
+  278  git remote add origin git@github.com: joe2mer/recipes.git
+  279  git remote add origin git@github.com"joe2mer/recipes.git
+  280  git remote add origin git@github.com:joe2mer@recipes.git
+  281  cd ~/
+  282  clear
+  283  cd ~/
+  284  ls -a
+  285  ssh-keygen -t ed25519 -C "joe2mer@gmail.com"
+  286  ls -a
+  287  vi Horse .pub
+  288  vi Horse.pub
+  289  ssh:keygen -t ed25519 -C "joe2mer@gmail.com"
+  290  ssh-keygen -t ed25519 -C "joe2mer@gmail.com"
+  291  ls -a
+  292  ~/
+  293  cd ~/
+  294  ssh-keygen -t ed25519 -C "joe2mer@gmail.com"
+  295  vi Please
+  296  vi Please.pub
+  297  git remote add origin git@github.com:joe2mer/recipes.git
+  298  git remote add origin git@github.com: joe2mer/recipes.git
+  299  cd ClassFiles
+  300  Cd Recipes
+  301  cd recipes
+  302  git remote add origin git@github.com: joe2mer/recipes.git
+  303  git push origin main 
+  304  git pull origin main
+  305  git push origin main
+  306  ls _a
+  307  cd ~/
+  308  ls -a
+  309  mv .ssh
+  310  ssh-keygen -t ed25519 "joe2mer@gmail.com
+  311  ssh-keygen -t ed25519 -C "joe2mer@gmail.com
+  312  ssh-keygen -t ed25519 -C "joe2mer@gmail.com"
+  313  ls -a
+  314  cd .ssh
+  315  ls -a
+  316  vi id_ed25519.pub
+  317  git remote add origin git@github.com: joe2mer/recipes.git
+  318  ~/
+  319  cd recipes
+  320  cd ClassFiles
+  321  ccd ~/
+  322  cd ~/
+  323  cd ClassFiles
+  324  cd Recipes
+  325  cd recipes
+  326  git remote add origin git@github.com: joe2mer/recipes.git
+  327  git remote add origin git@github.com:joe2mer/recipes.git
+  328  git push origin main
+  329  ls -rt
+  330  ls -lrt
+  331  ls 
+  332  ls -rt
+  333  ls -r
+  334  ls -tr
+  335  man ls
+  336  ls -a
+  337  ls -l
+  338  ls -lrt
+  339  cd /joe2mer
+  340  cd /home/
+  341  pwd
+  342  cd ~/
+  343  pwd
+  344  cd /home/joe2mer
+  345  cd ClassFiles
+  346  cd /home/joe2mer
+  347  mkdir Data
+  348  ls -lrt
+  349  rm Data
+  350  rm githubkey.pub
+  351  rm githubkey
+  352  rm Horse .pub
+  353  rm Horse
+  354  rm 'Horse .pub'
+  355  rm 'Horse '
+  356  ls -lrt
+  357  rm Horse.pub
+  358  rm Please
+  359  rm Please.pub
+  360  cd ClassFiles
+  361  ls-lrt
+  362  ls -lrt
+  363  mv Data ClassFiles
+  364  cd ~/
+  365  mv Data ClassFiles
+  366  ls -lrt
+  367  cd ClassFiles
+  368  ls -lrt
+  369  cd Data
+  370  touch subj01.txt
+  371  ls -lrt
+  372  mv subj01.txt ClassFiles
+  373  cd ClassFiles
+  374  cd /ClassFiles
+  375  cd ~/
+  376  cd ClassFiles
+  377  ls -lrt
+  378  cd Data
+  379  ls -lrt
+  380  cd ClassFiles
+  381  rm ClassFiles
+  382  ls -lrt
+  383  cd ~/
+  384  cd ClassFiles
+  385  touch subj01.txt
+  386  ls -lrt
+  387  cp subj01.txt subj02.txt 
+  388  ls -lrt
+  389  cp subj01.txt subj03.txt
+  390  cp subj01.txt subj04.txt
+  391  cp subj01.txt subj05.txt
+  392  ls -lrt
+  393  cp subj01.txt subj11.txt
+  394  ls -lrt
+  395  mv subj??.txt Data
+  396  ls -lrt
+  397  cd Data
+  398  ls -lrt
+  399  rm subj0?.txt
+  400  ls -lrt
+  401  cd ~/
+  402  ls -tr
+  403  cd ClassFiles
+  404  ls -tr
+  405  ls -t
+  406  cd ~/
+  407  man tee
+  408  touch Horse.txt
+  409  ls -lrt
+  410  vi Horse.txt
+  411  touch Pigeon.txt 
+  412  vi Pigeon.txt
+  413  Horse.txt | tee -a Pigeon.txt
+  414  history 
+  415  history > history.txt
+  416  ls -lrt
+  417  vi history.txt
+  418  ls -lrt
+  419  rm history.txt
+  420  ls -lrt
+  421  history | touch history.txt
+  422  vi history.txt
+  423  ls - lrt
+  424  ls -lrt
+  425  rm history.txt
+  426  history | tee history.txt
+  427  vi history.txt
+  428  ls -lrt
+  429  exit
+  430  cd ClassFiles
+  431  cd ~/
+  432  cd ClassFile
+  433  cd ClassFiles
+  434  ls -lrt
+  435  cd Data
+  436  ls -lrt
+  437  cd ~/
+  438  ls - lrt
+  439  ls -lrt
+  440  wc Horse.txt
+  441  wc Horse.txt |tee Pigeon.txt
+  442  vi Pigeon.txt
+  443  vi Pigeon.txt 
+  444  wc Horse.txt |tee -a Pigeon.txt
+  445  vi Pigeon.txt
+  446  man wc
+  447  screen
+  448  screen -r
+  449  ls -lrt
+  450  history | tee history2.txt
+  451  vi history.txt
+  452  vi history2.txt
+  453  vi history.txt
+  454  vi history2.txt
+  455  clear
+  456  history
+  457  rm history.txt
+  458  rm history2.txt
+  459  exit
+  460  history |tee history.txt

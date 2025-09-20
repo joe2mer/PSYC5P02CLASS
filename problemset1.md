@@ -5,11 +5,11 @@
 
 a) ls -tr
 b) ls -ltr
-c)
+c) -l means use a long listing format, -r (reverse) means reverse order while sorting, -t means sort by time, newest first.  
 
 *2. If your "home directory" is /users/yourname/, provide three different commands that you can use to navigate from the directory /users/yourname/documents/ to your home directory:*
 
-cd ~/, cd ../, cd /users/yourname/ 
+cd ~/, cd ../, cd /users/yourname/ (in the case of my own home directory I would use cd /home/joe2mer/)
 
 *3. Provide the commands to do the following (in order):*
 
@@ -32,11 +32,11 @@ cd ~/, cd ../, cd /users/yourname/
 
 wc Horse.txt |tee -a Pigeon.txt 
 
-The wc command prints the number of lines, words, and bytes in the Horse.txt file. The pipe allows us to pass the wc command to the tee command. The tee command then outputs the wc command in the terminal as a standard output and is appended to the Pigeon.txt file. 
+The wc command prints the number of lines, words, and bytes in the Horse.txt file. The pipe allows us to pass the wc command to the tee command. The tee command then outputs the wc command in the terminal as a standard output and also appends the output to the Pigeon.txt file. 
 
 *5. Using the screen command, open up a screen. Using the history command and a pipe, write your command history to a file. Then exit the screen, and write your history to a new file again. Are these files the same? Why or why not?* 
 
-history |tee history.txt or history > history.txt 
+history |tee history.txt
 
 No, these two files are not the same. This is because the history.txt file includes all of the history from the screen along with any preceding commands from the terminal. Whereas history2.txt includes only the history from the terminal preceding the screen and following the screen. 
 
