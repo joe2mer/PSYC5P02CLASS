@@ -46,7 +46,7 @@ No, these two files are not the same. This is because the history.txt file inclu
 
 *7. Take a screenshot of your terminal window listing the files of your local repo. Add the screenshot to the markdown file.
 
-![Forked the Respository](successful_part_2.png)
+![Forked the Respository](/images/successful_part_2.png)
 
 
 
