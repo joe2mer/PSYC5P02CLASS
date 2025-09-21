@@ -51,8 +51,8 @@ No, these two files are not the same. This is because the history.txt file inclu
 *8. Use the history command to write only the commands you used to commit your files to git. What was the command you used to create the final file?*
 
 The command used to write my commands used to commit my files to git is:
-* history | tails -n (number)
+* history | tail -n (number)
 
 The command used to create the final file was:
-* history | tails -n (number) > finalfile.txt
+* history | tail -n (number) > finalfile.txt
 
