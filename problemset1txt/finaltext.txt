@@ -1,0 +1,104 @@
+  810  git status
+  811  git add images/
+  812  git commit -m "work please"
+  813  git push origin main
+  814  cd ~/
+  815  mv images github_intro.png
+  816  ls -ltr
+  817  mv github_intro.png PSYC5P02CLASS
+  818  cd PSYC5P02CLASS
+  819  mv github_intro.png images
+  820  git status
+  821  git add images/github_intro.png 
+  822  git commit -m "is this working"
+  823  git push origin main
+  824  cd images
+  825  pwd
+  826  cd ../
+  827  ls -ltr
+  828  vi problemset1.md
+  829  git add problemset1.md
+  830  git commit -m "please work"
+  831  git push origin main 
+  832  vi problemset1.md
+  833  git add problemset1.md
+  834  git commit -m "added picture"
+  835  git push origin main 
+  836  vi problemset1.md
+  837  man ls
+  838  vi problemset1.md
+  839  cd ~/
+  840  pwd
+  841  cd PSYC5P02CLASS
+  842  cd /home/joe2mer
+  843  cd PSYC5P02CLASS
+  844  cd /home/joe2mer/
+  845  vi problemset1.md
+  846  cd PSYC5P02CLASS
+  847  vi problemset1.md
+  848  ls -ltr
+  849  mkdir problemset1txt
+  850  ls -ltr
+  851  git status
+  852  cd ~/
+  853  ls -ltr
+  854  mv Horse.txt PSYC5P02CLASS
+  855  mv Pigeon.txt PSYC5P02CLASS
+  856  mv history.txt PSYC5P02CLASS
+  857  mv history2.txt PSYC5P02CLASS
+  858  ls -ltr
+  859  rmdir TRASH
+  860  cd TRASH
+  861  ls -ltr
+  862  cd ~?
+  863  cd ~/
+  864  cd PSYC5P02CLASS
+  865  ls -ltr
+  866  mv Horse.txt problemset1txt
+  867  ls -ltr
+  868  mv Pigeon.txt problemset1txt
+  869  mv history.txt problemset1txt
+  870  mv history2.txt problemset1txt
+  871  ls -ltr
+  872  git status
+  873  git add problemset1.md
+  874  git add problemset1txt/
+  875  git commit -m "adding amended problemset1.md and problemset1txt"
+  876  git push origin main
+  877  history
+  878  history | head -n 875, 834
+  879  history | head -n 875
+  880  history | head -n 5
+  881  history | tail -n 1
+  882  history
+  883  history | tail -n 8
+  884  history | grep "875"
+  885  history | grep "875 g"
+  886  history | grep "875 git"
+  887  history | grep "adding amended"
+  888  history | tail -n 10 > testing.txt
+  889  ls -ltr
+  890  vi testing.txt
+  891  rm testing.txt
+  892  history | git commit -m "adding amended problemset1.md and problemset1txt"
+  893  git commit -m "adding amended problemset1.md and problemset1txt"
+  894  history | grep "git commit" | tail -n 5
+  895  git commit -m "adding amended problemset1.md and problemset1txt"
+  896  git commit -m "adding amended problemset1.md and problemset1txt" > testing.txt
+  897  vi testing.txt
+  898  rm testing.txt
+  899  history
+  900  vi problemset1.md
+  901  history
+  902  git add problemset1.md
+  903  git status
+  904  git commit -m "final markdown file"
+  905  git push origin main 
+  906  history
+  907  history | tails -n 96
+  908  vi problemset1.md
+  909  git add problemset1.md
+  910  git commit -m "final markdown"
+  911  git push origin main
+  912  history | tail -n 98
+  913  history | tail -n 104 > finaltext.txt
