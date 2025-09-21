@@ -44,9 +44,15 @@ No, these two files are not the same. This is because the history.txt file inclu
 
 ![Completed the GitHub tutorial!](/images/github_intro.png)
 
-*7. Take a screenshot of your terminal window listing the files of your local repo. Add the screenshot to the markdown file.
+*7. Take a screenshot of your terminal window listing the files of your local repo. Add the screenshot to the markdown file.*
 
 ![Forked the Respository](/images/successful_part_2.png)
 
+*8. Use the history command to write only the commands you used to commit your files to git. What was the command you used to create the final file?*
 
+The command used to write my commands used to commit my files to git is:
+* history | tails -n (number)
+
+The command used to create the final file was:
+* history | tails -n (number) > finalfile.txt
 
