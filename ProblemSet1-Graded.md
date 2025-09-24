@@ -47,17 +47,27 @@ The wc command prints the number of lines, words, and bytes in the Horse.txt fil
 
 *5. Using the screen command, open up a screen. Using the history command and a pipe, write your command history to a file. Then exit the screen, and write your history to a new file again. Are these files the same? Why or why not?* 
 
+:memo: **3/3**
+
 history |tee history.txt
 
+>> **should be a psace after the |**
+
 No, these two files are not the same. This is because the history.txt file includes all of the history from the screen along with any preceding commands from the terminal. Whereas history2.txt includes only the history from the terminal preceding the screen and following the screen. 
+
+:memo: **2/3**
 
 *6. Complete the introduction to GitHub tutorial. Screenshot the message you receive when you complete the tutorial, and insert the image into your markdown file.* 
 
 ![Completed the GitHub tutorial!](/images/github_intro.png)
 
+:memo: **3/3**
+
 *7. Take a screenshot of your terminal window listing the files of your local repo. Add the screenshot to the markdown file.*
 
 ![Forked the Respository](/images/successful_part_2.png)
+
+:memo: **3/3**
 
 *8. Use the history command to write only the commands you used to commit your files to git. What was the command you used to create the final file?*
 
@@ -66,3 +76,7 @@ The command used to write my commands used to commit my files to git is:
 
 The command used to create the final file was:
 * history | tail -n 104 > finaltext.txt
+
+:memo: **3/3**
+
+:Total: **25/26**
