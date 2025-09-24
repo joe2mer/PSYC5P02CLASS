@@ -51,11 +51,11 @@ The wc command prints the number of lines, words, and bytes in the Horse.txt fil
 
 history |tee history.txt
 
->> **should be a psace after the |**
+>> **should be a psace after the |. Code looks to be executed incorrectly.**
 
 No, these two files are not the same. This is because the history.txt file includes all of the history from the screen along with any preceding commands from the terminal. Whereas history2.txt includes only the history from the terminal preceding the screen and following the screen. 
 
-:memo: **2/3**
+:memo: **1.5/3**
 
 *6. Complete the introduction to GitHub tutorial. Screenshot the message you receive when you complete the tutorial, and insert the image into your markdown file.* 
 
@@ -79,4 +79,4 @@ The command used to create the final file was:
 
 :memo: **3/3**
 
-:Total: **25/26**
+:Total: **24.5/26**
